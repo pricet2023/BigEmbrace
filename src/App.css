@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Catchy Mager';
+  src: url('./fonts/Mager_Regular.otf') format('truetype');
+}
+
+.content {
+    padding-top: 60px; /* Add padding equal to the banner height */
+  }
