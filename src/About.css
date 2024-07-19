@@ -1,3 +1,82 @@
+@font-face {
+    font-family: 'Catchy Mager';
+    src: url('./fonts/Mager_Regular.otf') format('truetype');
+}
+
+
 .About {
     padding-top: 60px; /* Adjust this value to match your banner's height */
+}
+
+/* WHY WE STARTED THIS */
+
+.WhyStartedContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Catchy Mager';
+    background-color: #1e59c5;
+    color: white;
+}
+
+.WhyStartedLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhyStartedLeft h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.WhyStartedRight {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.WhyStartedRight p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* WHAT WE DO */
+
+.WhatWeDoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Catchy Mager';
+    background-color: #e9e6f0;
+    color: brown
+
+}
+
+.WhatWeDoLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhatWeDoLeft h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.WhatWeDoRight {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.WhatWeDoRight p {
+    margin: 0;
+    font-size: 1.2em;
 }

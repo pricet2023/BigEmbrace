@@ -6,8 +6,12 @@ const Resources = () => (
   <div>
     <Banner />
     <div className='Resources'>
-      <h1>Resources Page</h1>
-      <p>Here are some resources.</p>
+      <h1>Resources</h1>
+      <div className='ButtonContainer'>
+        <button className='ResourceButton'>Chat Room</button>
+        <button className='ResourceButton'>Resources and Support</button>
+        <button className='ResourceButton'>Book a talk</button>
+      </div>
     </div>
   </div>
 );

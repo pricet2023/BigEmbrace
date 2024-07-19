@@ -1,5 +1,25 @@
-.Resources {
-    padding-top: 60px; /* Adjust this value to match your banner's height */
-    height: 150px;
-    background-color: gray;
+@font-face {
+    font-family: 'Catchy Mager';
+    src: url('./fonts/Mager_Regular.otf') format('truetype');
 }
+
+.Resources {
+    padding-top: 70px;
+    /* Adjust this value to match your banner's height */
+    height: 150px;
+    font-family: 'Catchy Mager';
+    text-align: center;
+    background-color: green;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    /* Adjust the gap as needed */
+}
+
+.ResourceButton {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
