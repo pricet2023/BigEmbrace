@@ -9,11 +9,6 @@ import Contact from "./Contact.tsx";
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <div className="content">
-        <p>Welcome to app</p>
-        <div style={{ height: "2000px", fontFamily: 'Mager Regular' }}>Scroll to see it stays the same</div>
-      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resources" element={<Resources />} />
