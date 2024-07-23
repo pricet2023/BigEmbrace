@@ -12,6 +12,10 @@
     background-color: green;
 }
 
+.title {
+    color: white;
+}
+
 .ButtonContainer {
     display: flex;
     justify-content: center;
@@ -20,6 +24,23 @@
 }
 
 .ResourceButton {
+    background-color: white;
+    color: green;
+    border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Optional: Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Optional: Smooth hover effect */
+    text-decoration: none;
+    /* Remove underline from links */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ResourceButton:hover {
+    background-color: #e0e0e0; /* Optional: Change color on hover */
   }

@@ -22,14 +22,14 @@
   
   .banner-text {
     font-family: 'Yeseva One'; /* Replace with 'Long Island' if using that directly */
-    font-size: 2em;
     margin-right: 200px;
+    font-size: 4em;
   }
   
   .banner-buttons {
     display: flex;
     gap: 10px;
-    padding-right: 50px;
+    padding-right: 0px;
   }
   
   .banner-button {
@@ -45,6 +45,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Yeseva One'; /* Replace with 'Long Island' if using that directly */
+
   }
   
   .banner-button:hover {

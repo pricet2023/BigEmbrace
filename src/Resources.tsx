@@ -6,7 +6,7 @@ const Resources = () => (
   <div>
     <Banner />
     <div className='Resources'>
-      <h1>Resources</h1>
+      <h1 className='title'>Resources</h1>
       <div className='ButtonContainer'>
         <button className='ResourceButton'>Chat Room</button>
         <button className='ResourceButton'>Resources and Support</button>
