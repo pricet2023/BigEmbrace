@@ -1,11 +1,11 @@
 /* src/Banner.css */
 @font-face {
-  font-family: 'Catchy Mager';
-  src: url('./fonts/Mager_Regular.otf') format('truetype');
+  font-family: 'Mager';
+  src: url('./fonts/Mager.otf') format('truetype');
 }
 
 .banner {
-    background-color: green;
+    background-color: #0F5C24;
     color: white;
     position: fixed;
     top: 0;
@@ -29,7 +29,7 @@
   .banner-buttons {
     display: flex;
     gap: 10px;
-    padding-right: 0px;
+    padding-right: 30px;
   }
   
   .banner-button {

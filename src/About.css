@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Catchy Mager';
-    src: url('./fonts/Mager_Regular.otf') format('truetype');
+    font-family: 'Mager';
+    src: url('./fonts/Mager.otf') format('truetype');
 }
 
 
@@ -55,8 +55,8 @@
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Catchy Mager';
-    background-color: #e9e6f0;
-    color: brown;
+    background-color: rgb(233, 233, 229);
+    color: rgb(90, 36, 36);
     font-size: x-large;
 }
 

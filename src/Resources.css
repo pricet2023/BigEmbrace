@@ -1,26 +1,31 @@
 @font-face {
-    font-family: 'Catchy Mager';
-    src: url('./fonts/Mager_Regular.otf') format('truetype');
+    font-family: 'Mager';
+    src: url('./fonts/Mager.otf') format('truetype');
 }
 
 .Resources {
     padding-top: 100px;
     /* Adjust this value to match your banner's height */
-    height: 150px;
+    height: 500px;
     font-family: 'Catchy Mager';
     text-align: center;
-    background-color: green;
+    background-color: #0F5C24;
 }
 
 .title {
     color: white;
 }
 
-.ButtonContainer {
+.ActionsContainer {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
     /* Adjust the gap as needed */
+}
+
+.Action {
+    display: flex;
+    flex-direction: column;
 }
 
 .ResourceButton {
@@ -39,8 +44,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Yeseva One'; /* Replace with 'Long Island' if using that directly */
 }
 
 .ResourceButton:hover {
     background-color: #e0e0e0; /* Optional: Change color on hover */
-  }
+}

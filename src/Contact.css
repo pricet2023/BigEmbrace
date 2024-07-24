@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'Mager';
+  src: url('./fonts/Mager.otf') format('truetype');
+}
+
 .Contact {
     padding-top: 100px; /* Adjust this value to match your banner's height */
     text-align: center;
     align-items: center;
-    background-color: green;
+    background-color: #0F5C24;
     height: 1000px;
+    font-family: 'Catchy Mager ';
 }
 
 .SquareContainer {
@@ -15,7 +21,7 @@
     width: 300px;
     height: 300px;
     border: 1px solid white;
-    background-color: green;
+    background-color: #0F5C24;
     color: white;
     padding: 10px;
     box-sizing: border-box;
@@ -45,5 +51,6 @@
     font-family: 'Yeseva One'; /* Replace with 'Long Island' if using that directly */
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
   }
     
