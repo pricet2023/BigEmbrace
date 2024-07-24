@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Home.css'
-import Banner from './Banner.tsx';
+import Banner from '../Banner/Banner.tsx';
 
 const Home = () => (
   <div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from './Banner.tsx';
+import Banner from '../Banner/Banner.tsx';
 import './Resources.css'
-import phone from './images/phone.jpg';
-import resources from './images/resources.jpg';
-import speak from './images/speak.jpg';
+import phone from '../images/phone.jpg';
+import resources from '../images/resources.jpg';
+import speak from '../images/speak.jpg';
 
 const Resources = () => (
   <div className='ResourcesPage'>

@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Banner from "./Banner.tsx";
-import Home from "./Home.tsx";
-import Resources from "./Resources.tsx";
-import About from "./About.tsx";
-import Contact from "./Contact.tsx";
+import Home from "./Home/Home.tsx";
+import Resources from "./Resources/Resources.tsx";
+import About from "./About/About.tsx";
+import Contact from "./Contact/Contact.tsx";
 
 function App() {
   return (

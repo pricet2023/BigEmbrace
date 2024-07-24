@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Mager';
-    src: url('./fonts/Mager.otf') format('truetype');
+    src: url('../fonts/Mager.otf') format('truetype');
 }
 
 
@@ -39,6 +39,7 @@
 .WhyStartedRight {
     flex: 2;
     padding-left: 20px;
+    min-width: 700px;
 }
 
 .WhyStartedRight p {
@@ -62,24 +63,25 @@
     height: 500px;
 }
 
-.WhatWeDoLeft {
+.WhatWeDoRight {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.WhatWeDoLeft h1 {
+.WhatWeDoRight h1 {
     font-size: 3em;
     margin: 0;
 }
 
-.WhatWeDoRight {
+.WhatWeDoLeft {
     flex: 2;
     padding-left: 20px;
+    min-width: 700px;
 }
 
-.WhatWeDoRight p {
+.WhatWeDoLeft p {
     margin: 0;
     font-size: 1.2em;
 }

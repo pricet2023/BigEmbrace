@@ -1,7 +1,7 @@
 // src/Contact.js
 
 import React from 'react';
-import Banner from './Banner.tsx';
+import Banner from '../Banner/Banner.tsx';
 import './Contact.css'
 import { SocialIcon } from 'react-social-icons';
 

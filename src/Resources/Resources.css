@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Mager';
-    src: url('./fonts/Mager.otf') format('truetype');
+    src: url('../fonts/Mager.otf') format('truetype');
 }
 
 .Resources {

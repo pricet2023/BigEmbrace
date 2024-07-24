@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import Banner from './Banner.tsx';
+import Banner from '../Banner/Banner.tsx';
 
 const About = () => (
   <div>
@@ -21,7 +21,7 @@ const About = () => (
       </div>
     </div>
     <div className='WhatWeDoContainer'>
-      <div className='WhyStartedRight'>
+      <div className='WhatWeDoLeft'>
         <p>The Big Embrace is a community space for people supporting a loved one with an eating disorder. We want to create
           a safe space for siblings, friends, extended family members, work colleagues to feel heard, as well as to learn. 
           
@@ -34,7 +34,7 @@ const About = () => (
           your GP or health advisor.
         </p>
       </div>
-      <div className='WhyStartedLeft'>
+      <div className='WhatWeDoRight'>
         <h1>What we do</h1>
       </div>
     </div>
