@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from './Banner.tsx';
 import './Resources.css'
-import phone from './images/phone.PNG';
-import resources from './images/resources.PNG';
-import speak from './images/speak.PNG';
+import phone from './images/phone.jpg';
+import resources from './images/resources.jpg';
+import speak from './images/speak.jpg';
 
 const Resources = () => (
-  <div>
+  <div className='ResourcesPage'>
     <Banner />
     <div className='Resources'>
       <h1 className='title'>Resources</h1>

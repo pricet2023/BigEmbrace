@@ -21,6 +21,7 @@
     background-color: #1e59c5;
     color: white;
     font-size: x-large;
+    height: 500px;
 }
 
 .WhyStartedLeft {
@@ -58,6 +59,7 @@
     background-color: rgb(233, 233, 229);
     color: rgb(90, 36, 36);
     font-size: x-large;
+    height: 500px;
 }
 
 .WhatWeDoLeft {

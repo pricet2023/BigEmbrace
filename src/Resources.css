@@ -4,12 +4,16 @@
 }
 
 .Resources {
+    display: flex;
+    flex-direction: column;
     padding-top: 100px;
+    width: 100%;
     /* Adjust this value to match your banner's height */
-    height: 500px;
+    height: 1000px;
     font-family: 'Catchy Mager';
     text-align: center;
     background-color: #0F5C24;
+    align-items: center;
 }
 
 .title {
@@ -18,7 +22,8 @@
 
 .ActionsContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 150px;
     /* Adjust the gap as needed */
 }
@@ -50,3 +55,10 @@
 .ResourceButton:hover {
     background-color: #e0e0e0; /* Optional: Change color on hover */
 }
+
+img {
+    display: block;          /* Remove any default inline spacing */
+    max-width: 100%;         /* Ensures images fit within their container */
+    height: auto;            /* Maintains aspect ratio */
+}
+
